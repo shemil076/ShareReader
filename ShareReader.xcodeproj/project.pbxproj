@@ -1,0 +1,736 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7235AA642CA12F860056A6D2 /* ShareReaderExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 7235AA5A2CA12F850056A6D2 /* ShareReaderExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7235AA3A2CA12F040056A6D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7235AA212CA12F030056A6D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7235AA282CA12F030056A6D2;
+			remoteInfo = ShareReader;
+		};
+		7235AA442CA12F040056A6D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7235AA212CA12F030056A6D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7235AA282CA12F030056A6D2;
+			remoteInfo = ShareReader;
+		};
+		7235AA622CA12F860056A6D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7235AA212CA12F030056A6D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7235AA592CA12F850056A6D2;
+			remoteInfo = ShareReaderExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7235AA692CA12F860056A6D2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				7235AA642CA12F860056A6D2 /* ShareReaderExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7235AA292CA12F030056A6D2 /* ShareReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShareReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7235AA392CA12F040056A6D2 /* ShareReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7235AA432CA12F040056A6D2 /* ShareReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShareReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7235AA5A2CA12F850056A6D2 /* ShareReaderExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ShareReaderExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		7235AA652CA12F860056A6D2 /* Exceptions for "ShareReaderExtension" folder in "ShareReaderExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 7235AA592CA12F850056A6D2 /* ShareReaderExtension */;
+		};
+		72BF2C4B2CA14A2F008DEF9B /* Exceptions for "ShareReader" folder in "ShareReaderExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Model/ImageItem.swift,
+			);
+			target = 7235AA592CA12F850056A6D2 /* ShareReaderExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		7235AA2B2CA12F030056A6D2 /* ShareReader */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				72BF2C4B2CA14A2F008DEF9B /* Exceptions for "ShareReader" folder in "ShareReaderExtension" target */,
+			);
+			path = ShareReader;
+			sourceTree = "<group>";
+		};
+		7235AA3C2CA12F040056A6D2 /* ShareReaderTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShareReaderTests;
+			sourceTree = "<group>";
+		};
+		7235AA462CA12F040056A6D2 /* ShareReaderUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ShareReaderUITests;
+			sourceTree = "<group>";
+		};
+		7235AA5B2CA12F850056A6D2 /* ShareReaderExtension */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				7235AA652CA12F860056A6D2 /* Exceptions for "ShareReaderExtension" folder in "ShareReaderExtension" target */,
+			);
+			path = ShareReaderExtension;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7235AA262CA12F030056A6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA362CA12F040056A6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA402CA12F040056A6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA572CA12F850056A6D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7235AA202CA12F030056A6D2 = {
+			isa = PBXGroup;
+			children = (
+				7235AA2B2CA12F030056A6D2 /* ShareReader */,
+				7235AA3C2CA12F040056A6D2 /* ShareReaderTests */,
+				7235AA462CA12F040056A6D2 /* ShareReaderUITests */,
+				7235AA5B2CA12F850056A6D2 /* ShareReaderExtension */,
+				7235AA2A2CA12F030056A6D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7235AA2A2CA12F030056A6D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7235AA292CA12F030056A6D2 /* ShareReader.app */,
+				7235AA392CA12F040056A6D2 /* ShareReaderTests.xctest */,
+				7235AA432CA12F040056A6D2 /* ShareReaderUITests.xctest */,
+				7235AA5A2CA12F850056A6D2 /* ShareReaderExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7235AA282CA12F030056A6D2 /* ShareReader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7235AA4D2CA12F040056A6D2 /* Build configuration list for PBXNativeTarget "ShareReader" */;
+			buildPhases = (
+				7235AA252CA12F030056A6D2 /* Sources */,
+				7235AA262CA12F030056A6D2 /* Frameworks */,
+				7235AA272CA12F030056A6D2 /* Resources */,
+				7235AA692CA12F860056A6D2 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7235AA632CA12F860056A6D2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7235AA2B2CA12F030056A6D2 /* ShareReader */,
+			);
+			name = ShareReader;
+			packageProductDependencies = (
+			);
+			productName = ShareReader;
+			productReference = 7235AA292CA12F030056A6D2 /* ShareReader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7235AA382CA12F040056A6D2 /* ShareReaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7235AA502CA12F040056A6D2 /* Build configuration list for PBXNativeTarget "ShareReaderTests" */;
+			buildPhases = (
+				7235AA352CA12F040056A6D2 /* Sources */,
+				7235AA362CA12F040056A6D2 /* Frameworks */,
+				7235AA372CA12F040056A6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7235AA3B2CA12F040056A6D2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7235AA3C2CA12F040056A6D2 /* ShareReaderTests */,
+			);
+			name = ShareReaderTests;
+			packageProductDependencies = (
+			);
+			productName = ShareReaderTests;
+			productReference = 7235AA392CA12F040056A6D2 /* ShareReaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7235AA422CA12F040056A6D2 /* ShareReaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7235AA532CA12F040056A6D2 /* Build configuration list for PBXNativeTarget "ShareReaderUITests" */;
+			buildPhases = (
+				7235AA3F2CA12F040056A6D2 /* Sources */,
+				7235AA402CA12F040056A6D2 /* Frameworks */,
+				7235AA412CA12F040056A6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7235AA452CA12F040056A6D2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				7235AA462CA12F040056A6D2 /* ShareReaderUITests */,
+			);
+			name = ShareReaderUITests;
+			packageProductDependencies = (
+			);
+			productName = ShareReaderUITests;
+			productReference = 7235AA432CA12F040056A6D2 /* ShareReaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7235AA592CA12F850056A6D2 /* ShareReaderExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7235AA662CA12F860056A6D2 /* Build configuration list for PBXNativeTarget "ShareReaderExtension" */;
+			buildPhases = (
+				7235AA562CA12F850056A6D2 /* Sources */,
+				7235AA572CA12F850056A6D2 /* Frameworks */,
+				7235AA582CA12F850056A6D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				7235AA5B2CA12F850056A6D2 /* ShareReaderExtension */,
+			);
+			name = ShareReaderExtension;
+			packageProductDependencies = (
+			);
+			productName = ShareReaderExtension;
+			productReference = 7235AA5A2CA12F850056A6D2 /* ShareReaderExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7235AA212CA12F030056A6D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					7235AA282CA12F030056A6D2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					7235AA382CA12F040056A6D2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7235AA282CA12F030056A6D2;
+					};
+					7235AA422CA12F040056A6D2 = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 7235AA282CA12F030056A6D2;
+					};
+					7235AA592CA12F850056A6D2 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = 7235AA242CA12F030056A6D2 /* Build configuration list for PBXProject "ShareReader" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7235AA202CA12F030056A6D2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 7235AA2A2CA12F030056A6D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7235AA282CA12F030056A6D2 /* ShareReader */,
+				7235AA382CA12F040056A6D2 /* ShareReaderTests */,
+				7235AA422CA12F040056A6D2 /* ShareReaderUITests */,
+				7235AA592CA12F850056A6D2 /* ShareReaderExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7235AA272CA12F030056A6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA372CA12F040056A6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA412CA12F040056A6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA582CA12F850056A6D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7235AA252CA12F030056A6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA352CA12F040056A6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA3F2CA12F040056A6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7235AA562CA12F850056A6D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7235AA3B2CA12F040056A6D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7235AA282CA12F030056A6D2 /* ShareReader */;
+			targetProxy = 7235AA3A2CA12F040056A6D2 /* PBXContainerItemProxy */;
+		};
+		7235AA452CA12F040056A6D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7235AA282CA12F030056A6D2 /* ShareReader */;
+			targetProxy = 7235AA442CA12F040056A6D2 /* PBXContainerItemProxy */;
+		};
+		7235AA632CA12F860056A6D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7235AA592CA12F850056A6D2 /* ShareReaderExtension */;
+			targetProxy = 7235AA622CA12F860056A6D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7235AA4B2CA12F040056A6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7235AA4C2CA12F040056A6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7235AA4E2CA12F040056A6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShareReader/ShareReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShareReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7235AA4F2CA12F040056A6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShareReader/ShareReader.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ShareReader/Preview Content\"";
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReader;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7235AA512CA12F040056A6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShareReader";
+			};
+			name = Debug;
+		};
+		7235AA522CA12F040056A6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReaderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ShareReader.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ShareReader";
+			};
+			name = Release;
+		};
+		7235AA542CA12F040056A6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareReader;
+			};
+			name = Debug;
+		};
+		7235AA552CA12F040056A6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReaderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShareReader;
+			};
+			name = Release;
+		};
+		7235AA672CA12F860056A6D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareReaderExtension/ShareReaderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareReaderExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareReaderExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReader.ShareReaderExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7235AA682CA12F860056A6D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = ShareReaderExtension/ShareReaderExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7S4934LSLZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShareReaderExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShareReaderExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NEWS.ShareReader.ShareReaderExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7235AA242CA12F030056A6D2 /* Build configuration list for PBXProject "ShareReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7235AA4B2CA12F040056A6D2 /* Debug */,
+				7235AA4C2CA12F040056A6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7235AA4D2CA12F040056A6D2 /* Build configuration list for PBXNativeTarget "ShareReader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7235AA4E2CA12F040056A6D2 /* Debug */,
+				7235AA4F2CA12F040056A6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7235AA502CA12F040056A6D2 /* Build configuration list for PBXNativeTarget "ShareReaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7235AA512CA12F040056A6D2 /* Debug */,
+				7235AA522CA12F040056A6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7235AA532CA12F040056A6D2 /* Build configuration list for PBXNativeTarget "ShareReaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7235AA542CA12F040056A6D2 /* Debug */,
+				7235AA552CA12F040056A6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7235AA662CA12F860056A6D2 /* Build configuration list for PBXNativeTarget "ShareReaderExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7235AA672CA12F860056A6D2 /* Debug */,
+				7235AA682CA12F860056A6D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7235AA212CA12F030056A6D2 /* Project object */;
+}
